@@ -3,12 +3,10 @@ import pyupbit
 import datetime
 import requests
 
-f = open('C:\Users\jeong\Desktop\cotrade\doge\upbit.txt', 'rt')
-lines = f.readlines()
 
-access = lines[0]
-secret = lines[1]
-myToken = lines[2]
+access = ""
+secret = ""
+myToken = ""
 
 def post_message(token, channel, text):
     """슬랙 메시지 전송"""
