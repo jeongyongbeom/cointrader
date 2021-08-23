@@ -3,7 +3,7 @@ import pyupbit
 import datetime
 import requests
 
-f = open('upbit.txt', 'rt')
+f = open('C:\Users\jeong\Desktop\cotrade\doge\upbit.txt', 'rt')
 lines = f.readlines()
 
 access = lines[0]
